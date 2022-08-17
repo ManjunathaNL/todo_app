@@ -1,0 +1,192 @@
+.app {
+  /* background: #1993df;
+  height: 100vh;
+  padding: 50px; */
+  width: 100%;
+  height: 100vh;
+  /* overflow: hidden; */
+  padding: 10px;
+  background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+}
+
+.todo-list {
+  /* background-color:skyblue;
+  border-radius: 4px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 5px; */
+
+  background: #fff;
+  max-width: 400px;
+  width: 100%;
+  margin: 120px auto;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+
+.todo {
+  align-items: center;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(226, 27, 27, 0.15);
+  display: flex;
+  font-size: 12px;
+  height: 45px;
+  line-height: 25px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+  width: 350px;
+  background-color:rgb(231, 239, 241) ;
+
+  /* position: relative;
+  list-style: none;
+  height: 45px;
+  line-height: 45px;
+  margin-bottom: 8px;
+  background: #f2f2f2;
+  border-radius: 3px;
+  padding: 0 15px;
+  cursor: default;
+  overflow: hidden; */
+}
+
+.head{
+  text-align: center;
+  color: navy;
+  font-size: 25px;
+}
+
+.form-add{
+  display: flexbox;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 50px;
+  padding-left: 10px ;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.input{
+  width: 200px;
+  border-radius: 3px;
+  height: 40px;
+  padding-left: 15px;
+  padding-right:25px ;
+  margin-top: 5px;
+  box-sizing:content-box;
+  border-color: #8E49E8;
+  margin-bottom: 25px;
+
+  /* margin: 40px 0;
+  display: flex;
+  height: 55px;
+  width: 65%;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  padding-left: 15px;
+  border-color: #8E49E8;
+  transition: all 0.3s ease; */
+}
+
+.btn{
+  /* box-sizing: border-box;
+  height: 35px;
+  margin-left:0px;
+  margin-top: 5px;
+  background-color:ghostwhite ; */
+  width: 50px;
+  height: 48px;
+  border: none;
+  color: #fff;
+  margin-left: 5px;
+  background: #8E49E8;
+  border-radius: 3px;
+  
+}
+
+.btn-list{
+    background-color:#e61710 ;
+  
+  
+    color: rgb(231, 239, 241);
+}
+
+
+
+
+
+
+/* @media screen and (max-width:500px)
+{
+  .todo-list {
+    background:blueviolet;
+  }
+
+  .todo{
+    font-size: 25px;
+     
+  }
+
+} */
+
+/* @media screen and (orientation:landscape)
+{
+  .todo-list {
+    background: yellow;
+  }
+
+  .todo{
+    font-size: 25px;
+     
+  }
+
+} */
+
+/* @media screen and (orientation:portrait)
+{
+  .todo-list {
+    background: yellow;
+  }
+
+  .todo{
+    font-size: 25px;
+     
+  }
+
+} */
+
+/* @media print 
+{
+  .todo-list {
+    background: yellow;
+    
+  }
+
+  .todo{
+    font-size: 25px;
+     
+  }
+  .app{
+    background-color: blue;
+  }
+
+} */
+
+/* 
+@media all and (orientation:landscape) and (max-width:786px)
+{
+  .todo-list {
+    background: yellow;
+  }
+
+  .todo{
+    font-size: 25px;
+     
+  }
+
+} */
+
